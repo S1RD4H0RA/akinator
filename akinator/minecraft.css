@@ -1,30 +1,27 @@
 :root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
+    --cor-fundo: #ebebeb ;
+    --cor-principal: #ffffff ;
+    --cor-secundaria: #ff00d4; 
     --cor-destaque: #8400ff;
-    --cor-texto: #D7F9FF;
+    --cor-texto: #000000;
 
 }
 
 body {
-    background-image: url("/home/escola/Documentos/S1RD4H0R4/akinator/celsofodomano.gif");
+    background-image: url("/home/escola/Documentos/S1RD4H0R4/akinator/VOSEFGOSTA.png");
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-size: 100%;
 }
 
 .caixa-principal{
-    width: 90%;
     max-width: 600px;
     text-align: center;
     padding: 20px;
-}
-
-.scottbom {
-    
+    width: 50%;
 }
 
 h1{
