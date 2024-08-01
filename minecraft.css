@@ -1,0 +1,43 @@
+:root{
+    --cor-fundo: #ebebeb ;
+    --cor-principal: #ffffff ;
+    --cor-secundaria: #ff00d4; 
+    --cor-destaque: #8400ff;
+    --cor-texto: #000000;
+
+}
+
+body {
+    background-image: url("/home/escola/Documentos/S1RD4H0R4/akinator/VOSEFGOSTA.png");
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: 100%;
+}
+
+.caixa-principal{
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
